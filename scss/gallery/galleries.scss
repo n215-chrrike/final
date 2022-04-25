@@ -1,0 +1,174 @@
+.gallery-header {
+  display: flex;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  .gallery1-img {
+    height: 400px;
+    width: 980px;
+    background-image: linear-gradient(
+        rgba($site-yellow, 0.4),
+        rgba($site-yellow, 0.4)
+      ),
+      url(../images/gallery/1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .gallery1-num {
+    font-size: 300px;
+    color: $site-yellow;
+    -webkit-text-stroke: 2px #707070;
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 165px;
+  }
+  .gallery1-title {
+    color: $site-yellow;
+    -webkit-text-stroke: 2px #707070;
+    position: absolute;
+    font-size: 140px;
+    margin-top: 315px;
+    margin-left: 475px;
+  }
+  .gallery2-img {
+    height: 400px;
+    width: 980px;
+    background-image: linear-gradient(
+        rgba($site-pink, 0.4),
+        rgba($site-pink, 0.4)
+      ),
+      url(../images/gallery/2.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .gallery2-num {
+    font-size: 300px;
+    color: $site-pink;
+    -webkit-text-stroke: 2px #707070;
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 165px;
+  }
+  .gallery2-title {
+    color: $site-pink;
+    -webkit-text-stroke: 2px #707070;
+    position: absolute;
+    font-size: 140px;
+    margin-top: 315px;
+    margin-left: 475px;
+  }
+  .gallery3-img {
+    height: 400px;
+    width: 980px;
+    background-image: linear-gradient(
+        rgba($site-green, 0.4),
+        rgba($site-green, 0.4)
+      ),
+      url(../images/gallery/3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .gallery3-num {
+    font-size: 300px;
+    color: $site-green;
+    -webkit-text-stroke: 2px #707070;
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 165px;
+  }
+  .gallery3-title {
+    color: $site-green;
+    -webkit-text-stroke: 2px #707070;
+    position: absolute;
+    font-size: 140px;
+    margin-top: 315px;
+    margin-left: 475px;
+  }
+  .gallery4-img {
+    height: 400px;
+    width: 980px;
+    background-image: linear-gradient(
+        rgba($site-purple, 0.4),
+        rgba($site-purple, 0.4)
+      ),
+      url(../images/gallery/4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .gallery4-num {
+    font-size: 300px;
+    color: $site-purple;
+    -webkit-text-stroke: 2px #707070;
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 165px;
+  }
+  .gallery4-title {
+    color: $site-purple;
+    -webkit-text-stroke: 2px #707070;
+    position: absolute;
+    font-size: 140px;
+    margin-top: 315px;
+    margin-left: 475px;
+  }
+  .gallery5-img {
+    height: 400px;
+    width: 980px;
+    background-image: linear-gradient(
+        rgba($site-teal, 0.4),
+        rgba($site-teal, 0.4)
+      ),
+      url(../images/gallery/5.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .gallery5-num {
+    font-size: 300px;
+    color: $site-teal;
+    -webkit-text-stroke: 2px #707070;
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 165px;
+  }
+  .gallery5-title {
+    color: $site-teal;
+    -webkit-text-stroke: 2px #707070;
+    position: absolute;
+    font-size: 140px;
+    margin-top: 315px;
+    margin-left: 475px;
+  }
+}
+
+.paragraph-box {
+  width: 980px;
+  min-height: 133px;
+  //background-color: purple;
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: 73px;
+  justify-content: space-between;
+  p {
+    width: 46 0px;
+    color: gray;
+    font-style: italic;
+  }
+}

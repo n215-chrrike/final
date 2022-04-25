@@ -1,0 +1,52 @@
+.blog-header {
+  width: 981px;
+  height: 300px;
+  display: flex;
+  margin: 0 auto;
+  background-image: linear-gradient(
+      rgba($site-pink, 0.4),
+      rgba($site-pink, 0.4)
+    ),
+    url(../images/blog.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-top: 55px;
+  margin-bottom: 53px;
+  .date-block-large {
+    width: 155px;
+    height: 155px;
+    background-color: $site-pink;
+    color: white;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    text-align: center;
+    margin: 0 auto;
+    align-self: center;
+    h3 {
+      font-size: 55px;
+    }
+    p {
+      font-size: 31px;
+      margin-top: 0px;
+    }
+  }
+}
+
+.blog-entry {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  width: $nav-width;
+  height: 225px;
+  margin: 0 auto;
+  margin-bottom: 53px;
+  .blog-entry-header {
+    color: $site-pink;
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  p {
+    color: gray;
+    font-size: 20px;
+    font-weight: lighter;
+  }
+}

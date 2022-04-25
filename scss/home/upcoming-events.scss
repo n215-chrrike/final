@@ -1,0 +1,70 @@
+upcoming-events {
+  display: flex;
+  flex-direction: column;
+  background-color: $site-purple;
+  width: 100%;
+  height: 320px;
+  .upcoming-events-header {
+    color: white;
+    width: 265px;
+    height: 33px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    font-size: 20px;
+    margin-top: 46px;
+    margin-left: 40px;
+    border-bottom: 2px solid white;
+  }
+  .event-list {
+    width: 1198px;
+    height: 124px;
+    // background-color: oldlace;
+    margin: 0 auto;
+    margin-top: 45px;
+    display: flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .event {
+      //background-color: orange;
+      width: 224px;
+      height: 124px;
+      display: flex;
+      .date-box {
+        width: 60px;
+        height: 60px;
+        background-color: $site-pink;
+        color: white;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        text-align: center;
+
+        h3 {
+          font-size: 25px;
+        }
+        p {
+          font-size: 15px;
+          margin-top: -20px;
+        }
+      }
+      .event-title {
+        p {
+          font-size: 15px;
+          color: white;
+          width: 140px;
+          height: 41px;
+          text-align: left;
+          margin-left: 20px;
+        }
+      }
+    }
+    .event-desc {
+      color: $site-pink;
+      width: 140px;
+      height: 78px;
+      font-size: 13px;
+      margin-left: 20px;
+      margin-top: -20px;
+    }
+  }
+}

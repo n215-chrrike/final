@@ -1,0 +1,91 @@
+.gallery-title {
+  color: black;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 25px;
+  width: 188px;
+  height: 33px;
+  border-bottom: 2px solid black;
+  margin-left: 275px;
+  margin-top: 60px;
+}
+
+.gallery-row {
+  width: $nav-width;
+  height: 187px;
+  //background-color: purple;
+  margin: 0 auto;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  .gallery-one {
+    height: 187px;
+    width: 489px;
+    background-image: linear-gradient(
+        rgba($site-yellow, 0.4),
+        rgba($site-yellow, 0.4)
+      ),
+      url(../images/gallery/1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .gallery-two {
+    height: 187px;
+    width: 187px;
+    background-image: linear-gradient(
+        rgba($site-pink, 0.4),
+        rgba($site-pink, 0.4)
+      ),
+      url(../images/gallery/2.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .gallery-three {
+    height: 187px;
+    width: 265px;
+    background-image: linear-gradient(
+        rgba($site-green, 0.4),
+        rgba($site-green, 0.4)
+      ),
+      url(../images/gallery/3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+}
+
+.gallery-row-wide {
+  width: $nav-width;
+  height: 306px;
+  //background-color: purple;
+  margin: 0 auto;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+  .gallery-four {
+    height: 306px;
+    width: 603px;
+    background-image: linear-gradient(
+        rgba($site-purple, 0.4),
+        rgba($site-purple, 0.4)
+      ),
+      url(../../images/gallery/4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .gallery-five {
+    height: 306px;
+    width: 355px;
+    background-image: linear-gradient(
+        rgba($site-teal, 0.4),
+        rgba($site-teal, 0.4)
+      ),
+      url(../../images/gallery/5.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+}
