@@ -1,7 +1,7 @@
 n215 final
 
 Web4 Link:
-https://in-info-web4.informatics.iupui.edu/~chrrike/Eventsy/
+https://in-info-web4.informatics.iupui.edu/~chrrike/eventsy/
 
 Assignment Desc:
 Be a single-page application
